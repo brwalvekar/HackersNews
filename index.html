@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hackers News</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/custom-styles.css" />
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+    </head>
+    <body>
+        <div class="body home-page">
+            <div class="container">
+                <h1><span>Hackers News</span></h1>
+
+                <div class="filters-dropdown">
+                    <select name="filters" id="filters" >
+                      <option value="all" selected>All</option>
+                      <option value="last-week">Top Articles (Last Week)</option>
+                      <option value="one-month">Top Articles (Last Month)</option>
+                    </select>
+                </div>
+                <ol id="all_news"></ol>
+                <ol id="last_week"></ol>
+                <ol id="last_one_month"></ol>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+html, body {
+    
+}
+body {
+    color: #171717;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+body, h1, h2, p, ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:focus,
+input:focus,
+button:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.display-table > .vertical-align {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+}
+.display-table > .vertical-align.middle {
+    vertical-align: middle;
+}
+.display-table > .vertical-align.bottom {
+    vertical-align: bottom;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.clearfix {
+    clear: both;
+}
+.body.home-page {
+    padding: 80px 120px;
+}
+.body.home-page h1 {
+    color: #ff6600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.body.home-page h1 span {
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 10px;
+}
+.body.home-page ol {
+    padding-left: 15px;
+}
+.body.home-page ol li + li {
+    margin-top: 30px;
+}
+.body.home-page ol li {
+    font-size: 18px;
+    color: #365899;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+.body.home-page ol li .title a {
+    color: #365899;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+}
+.body.home-page ol li a:hover {
+    color: #ff6600;
+}
+.body.home-page ol li .points {
+    font-size: 14px;
+    color: #828282;
+}
+.body.home-page .filters-dropdown {
+    margin: 50px 0px;
+}
+.body.home-page .filters-dropdown #filters {
+    background: #171717;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.body.home-page .filters-dropdown #filters option {
+    padding: 10px;
+}
+.body.home-page .add-to-fav {
+    color: #171717;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+.body.home-page .add-to-fav:hover {
+    color: #ff6600;
+}
