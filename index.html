@@ -12,7 +12,7 @@
         <div class="body home-page">
             <div class="container">
                 <h1><span>Hackers News</span></h1>
-
+                
                 <div class="filters-dropdown">
                     <select name="filters" id="filters" >
                       <option value="all" selected>All</option>
@@ -20,9 +20,17 @@
                       <option value="one-month">Top Articles (Last Month)</option>
                     </select>
                 </div>
-                <ol id="all_news"></ol>
-                <ol id="last_week"></ol>
-                <ol id="last_one_month"></ol>
+                <div class="show-fav-button">Show Favourites</div>
+                <div class="clearfix"></div>
+                <div class="all-news-container">
+                    <ol id="all_news"></ol>
+                    <ol id="last_week"></ol>
+                    <ol id="last_one_month"></ol>
+                </div>
+                
+                <div class="favourites-container">
+                    <ol id="fav_links"></ol>
+                </div>
             </div>
         </div>
     </body>

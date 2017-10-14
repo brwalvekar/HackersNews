@@ -94,6 +94,9 @@ a:focus {
     font-size: 18px;
     text-align: left;
 }
+.body.home-page ol li .title.active a {
+    color: #ff6600;
+}
 .body.home-page ol li a:hover {
     color: #ff6600;
 }
@@ -103,6 +106,17 @@ a:focus {
 }
 .body.home-page .filters-dropdown {
     margin: 50px 0px;
+    float: left;
+}
+.body.home-page .show-fav-button {
+    font-size: 14px;
+    background: #171717;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+    padding: 8px 10px;
+    margin: 50px 0px 50px 50px;
+    cursor: pointer;
 }
 .body.home-page .filters-dropdown #filters {
     background: #171717;
@@ -113,14 +127,22 @@ a:focus {
 .body.home-page .filters-dropdown #filters option {
     padding: 10px;
 }
-.body.home-page .add-to-fav {
-    color: #171717;
+.body.home-page .add-to-fav, .body.home-page .remove-from-fav {
     font-size: 11px;
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
     margin-top: 5px;
+    background: #ff6600;
+    color: #fff;
+    padding: 4px 10px;
 }
-.body.home-page .add-to-fav:hover {
-    color: #ff6600;
+.body.home-page .remove-from-fav {
+    margin-left: 20px;
+}
+.body.home-page .add-to-fav:hover, .body.home-page .add-to-fav.active {
+    background: #000;
+}
+.body.home-page .favourites-container {
+    display: none;
 }
